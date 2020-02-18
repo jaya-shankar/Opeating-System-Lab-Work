@@ -1,4 +1,4 @@
-##Questions##
+##Questions
 
 1. Write C programs to simulate the following CPU Scheduling algorithms
     1. FCFS 
