@@ -51,6 +51,7 @@ int main()
             scanf("%d",&tasks[i].alloc[j]);
             printf("\n");
             tasks[i].need[j]=tasks[i].max[j]-tasks[i].alloc[j];
+            available[j]=available[j]-tasks[i].alloc[j];
         }
     }
     printf("Enter no of requests: ");
